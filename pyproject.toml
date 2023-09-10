@@ -1,0 +1,22 @@
+[project]
+name = "pytorch_scatter"
+version = "2.1.1"
+description = "PyTorch Extension Library of Optimized Scatter Operations"
+authors = [
+    { name = "Matthias Fey", email = "matthias.fey@tu-dortmund.de" },
+]
+dependencies = [
+    "torch"
+]
+readme = "README.md"
+requires-python = ">=3.7"
+keywords = ["pytorch", "scatter", "segment", "gather"]
+license = {text = "MIT License"}
+classifiers = [
+]
+dynamic = ["version"]
+
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
